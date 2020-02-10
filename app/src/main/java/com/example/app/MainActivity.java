@@ -43,9 +43,6 @@ public class MainActivity extends Activity {
         tvResult = (TextView) findViewById(R.id.tvResult);
 
     }
-    public void getData(){
-        Intent intent = new Intent();
-    }
 
     public void onClick(View v) {
         float num1 = 0;
