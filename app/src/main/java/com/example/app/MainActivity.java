@@ -2,6 +2,7 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Gravity;
@@ -41,6 +42,9 @@ public class MainActivity extends Activity {
 
         tvResult = (TextView) findViewById(R.id.tvResult);
 
+    }
+    public void getData(){
+        Intent intent = new Intent();
     }
 
     public void onClick(View v) {
